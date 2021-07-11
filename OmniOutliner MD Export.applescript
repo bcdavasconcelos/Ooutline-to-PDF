@@ -2,6 +2,10 @@ use AppleScript version "2.4" -- Yosemite (10.10) or later
 use scripting additions
 -- use script "RegexAndStuffLib"
 
+-- bcdav  2021-07-11-12-47
+-- https://github.com/bcdavasconcelos/Ooutline-to-PDF
+-- with a little help from my friends (https://discourse.omnigroup.com/t/script-to-convert-oo-to-markdown-tex-and-pdf-using-pandoc/31429/15)
+
 property UseSelection : false -- if false → all rows
 property IncludeRowNote : true
 property ConvertWithPandoc : false
